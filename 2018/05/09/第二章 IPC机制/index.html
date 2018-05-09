@@ -89,7 +89,7 @@
 <meta property="og:site_name" content="莫少侠Code笔记">
 <meta property="og:description" content="2.2.1 开启多进程 进程名以”:”开头的进程属于应用私有进程，其它应用不能和它跑在同一个进程，而进程名不以“:”开头的进程属于全局进程，其它应用通过ShareUID方式可以和它跑在同一进程中。（p39）2.2.2 多进程模式的运行机制 Android为每一个进程都分配了一个独立的虚拟机，不同的虚拟机在内存分配上有不同的地址空间，这就导致在不同的虚拟机中访问同一个类的对象会有不同的副本。（p40">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-05-09T13:35:38.000Z">
+<meta property="og:updated_time" content="2018-05-09T13:40:49.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="第二章 IPC机制">
 <meta name="twitter:description" content="2.2.1 开启多进程 进程名以”:”开头的进程属于应用私有进程，其它应用不能和它跑在同一个进程，而进程名不以“:”开头的进程属于全局进程，其它应用通过ShareUID方式可以和它跑在同一进程中。（p39）2.2.2 多进程模式的运行机制 Android为每一个进程都分配了一个独立的虚拟机，不同的虚拟机在内存分配上有不同的地址空间，这就导致在不同的虚拟机中访问同一个类的对象会有不同的副本。（p40">
@@ -341,7 +341,8 @@
 <li>静态成员和单例模式完全失效</li>
 <li>线程同步机制完全失效</li>
 <li>SharedPreference的可靠性下降</li>
-<li>Application会多次创建<h3 id="2-3-IPC基础概念"><a href="#2-3-IPC基础概念" class="headerlink" title="2.3 IPC基础概念"></a>2.3 IPC基础概念</h3><h4 id="2-3-1-Serializable-接口"><a href="#2-3-1-Serializable-接口" class="headerlink" title="2.3.1 Serializable 接口"></a>2.3.1 Serializable 接口</h4></li>
+<li>Application会多次创建<a id="more"></a> 
+<h3 id="2-3-IPC基础概念"><a href="#2-3-IPC基础概念" class="headerlink" title="2.3 IPC基础概念"></a>2.3 IPC基础概念</h3><h4 id="2-3-1-Serializable-接口"><a href="#2-3-1-Serializable-接口" class="headerlink" title="2.3.1 Serializable 接口"></a>2.3.1 Serializable 接口</h4></li>
 </ul>
 <ul>
 <li>需要指定serialVersionUID之后才能反序列化</li>
@@ -562,15 +563,12 @@
   本站访客数:<span id="busuanzi_value_site_uv"></span>
 </span>
 </div>
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
 
 
 
   <span class="post-meta-divider">|</span>
 
-
-
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>
 
 
 
